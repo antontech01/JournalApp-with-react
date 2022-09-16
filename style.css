@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 550;
+    height: 704px;
+    
+}
+.container-body{
+    padding: 20px;
+    margin: 20px 0;
+    display: flex;
+    width: 500px;
+    column-gap: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.header{
+    position: relative;
+    height: 55px;
+    background-color: #F55A5A;
+    color:#fff;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.image{
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}
+
+.description, .location, .google, .date{
+    font-size: 11px;
+}
+
+.fa-sharp{
+    color: #F55A5A;
+    width: 7px;
+    height: 9.5px;
+    margin-right: 3px;
+
+}
+
+.fa-earth-americas{
+    margin-right: 7px;
+    font-size: 24px;
+}
+
+.date {
+    margin-bottom: 10px;
+}
+
+.google a {
+    color: gray;
+    margin-left: 8px;
+}
+
+.title{
+    font-size: 25px;
+}
